@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRASIL</title>
+
+    <style>
+        body{
+            background-color: rgba(0,156,59);
+            margin: 0;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            display: grid;
+            flex-direction: row;
+            justify-content: center;    /* HORIZONTAL */
+            justify-items: center;
+            align-content: center;  /* VERTICAL */
+            align-items: center;
+            padding: 40ph;
+        }
+        .triangle{
+            margin: 0;
+            display: flex;
+            flex-direction: center;    /* AJUSTE EM LINHA */
+            justify-content: center;    /* HORIZONTAL */
+            justify-items: center;
+            align-content: center;  /* VERTICAL */
+            align-items: center;
+            padding: 40ph;
+        }
+        .box{
+            width: 1000px;
+            height: 350px;  
+            display: flex;
+            flex-direction: column;    /* AJUSTE EM LINHA */
+            justify-content: space-between;    /* HORIZONTAL */
+            justify-items: center;
+            align-content: center;  /* VERTICAL */
+            align-items: center;
+            
+        }
+        /*.amarelo{
+            background-color: rgba(255,223,0);
+            width: 500px;
+            height: 500px;
+            transform: rotate(45deg);
+            -webkit-transform: skew(20deg);
+        }*/
+        .amarelo{
+            color: rgba(255,223,0);
+            border-left: 60px solid transparent; 
+            border-right: 60px solid transparent; 
+            border-bottom: 35px solid rgba(255,223,0);
+            transform: scale(9);
+            margin-bottom: 10;
+        }
+        .amarelo2{
+            border-left: 60px solid transparent; 
+            border-right: 60px solid transparent; 
+            border-bottom: 35px solid rgba(255,223,0);
+            transform: scale(9) rotate(180deg);
+            
+        }
+        .azul{
+            position: relative;
+            margin-top: -400px;
+            width: 450px; 
+            height: 450px; 
+            background: rgba(0,39,118); 
+            -moz-border-radius: 500px; 
+            -webkit-border-radius: 500px; 
+            border-radius: 500px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="triangle">
+    <div class="box">
+        <div class="amarelo"></div>
+        <div class="amarelo2"></div>
+        </div>
+    </div>
+    <div class="azul"></div>
+</body>
+</html>

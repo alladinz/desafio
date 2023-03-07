@@ -32,6 +32,17 @@ body{
 .yellowbox:hover{
     box-shadow: 4px 4px 10px #feffff79;
 }
+.blackbox{
+    width: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;    /* AJUSTE EM LINHA */
+    justify-content: space-around;    /* HORIZONTAL */
+    justify-items: center;
+    align-content: center;  /* VERTICAL */
+    align-items: center;
+    padding: 20ph;
+}
 .redbox{
     width: 80px;
     height: 200px;
