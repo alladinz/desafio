@@ -1,0 +1,33 @@
+body{
+    width: 98%;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;    /* AJUSTE EM LINHA */
+    justify-content: space-around;    /* HORIZONTAL */
+    justify-items: center;
+    align-content: center;  /* VERTICAL */
+    align-items: center;
+    padding: 40ph;
+    background-image: linear-gradient(45deg, blue, aqua);
+    animation: gradient 6s ease infinite;
+    background-size: 200% 200%;
+}
+.yellowbox{
+    width: 140vh;
+    height: 80vh;
+    content: "";
+    background-image: linear-gradient(45deg, rgb(243, 115, 42), rgb(255, 230, 0));
+    animation: gradient 6s ease infinite;
+    background-size: 100% 100%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
